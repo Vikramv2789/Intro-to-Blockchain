@@ -25,3 +25,5 @@ class Blockchain{
         return new Block(0, "03/01/2009", "Genesis Block", "0");
     }
 }
+b = new Blockchain()
+console.log(b.createGenesisBlock())
